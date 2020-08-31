@@ -992,22 +992,6 @@ td {
         font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Droid Sans Fallback','Microsoft YaHei',sans-serif;
       }
     
-      abbr[title]:after
-{
-   content: " (" attr(title) ")";
-}
-
-@media screen and (min-width: 1025px)
-{
-   abbr[title]
-   {
-      border-bottom: 1px dashed #ADADAD;
-      cursor:help;
-   }
-
-   abbr[title]:after
-   {
-      content: "";
-   }
-}
+      $('abbr').attr('data-toggle', 'tooltip'); // add atribute to all abbrs
+$('[data-toggle="tooltip"]').tooltip(); // initialize tooltips on all abbrs
     
