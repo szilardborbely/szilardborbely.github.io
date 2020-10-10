@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nem kell innen semmi | 加载ing. . .</title>
+<link rel="shortcut icon" href="https://szilardborbely.github.io/favicon.ico?v=1602293039508">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://szilardborbely.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Nem kell innen semmi | 加载ing. . . - Atom Feed" href="https://szilardborbely.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="此中无取
+我将一切丢下此处，众谷，群峰，山间径，及园中诸雀，在此处我丢弃卒与车，天空同土地，春景共秋意，要在此丢下出路，厨房间的众夜，最后怀恋的一瞥，及入城标志牌使人悚然的方向指示，在此丢下大地上沉重的暮光，质量，希望，魔力与宁静，丢下亲爱..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://szilardborbely.github.io">
+  <img class="avatar" src="https://szilardborbely.github.io/images/avatar.png?v=1602293039508" alt="">
+  </a>
+  <h1 class="site-title">
+    加载ing. . .
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Nem kell innen semmi
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-10-03
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>此中无取</p>
+<p>我将一切丢下此处，众谷，群峰，山间径，及园中诸雀，在此处我丢弃卒与车，天空同土地，春景共秋意，要在此丢下出路，厨房间的众夜，最后怀恋的一瞥，及入城标志牌使人悚然的方向指示，在此丢下大地上沉重的暮光，质量，希望，魔力与宁静，丢下亲爱的与亲切的，一切触碰到、撼动过<br>
+因我望入了临来内，知此中无取。</p>
+<p>Én itt hagynék mindent, a völgyeket, a dombokat, az ösvényeket és a szajkókat a kertből, én itt hagynék csapot és papot, eget és földet,  tavaszt és őszt, itt hagynám a kivezető utakat, az éjszakákat a konyhában, az utolsó szerelmes pillantást, s a városok felé vezető összes borzongató irányt, itt hagynám a tájra ereszkedő sűrű alkonyt, a súlyt, a reményt, a bűvöletet és a nyugalmat, itt hagynék szeretettet és közelit, mindent, ami meghatott, megrendített, magával ragadott és  felemelt, itt hagynám a nemest, a jóakaratút, a kellemest, s a démonian szépet, itt hagynék minden rügyfakadást, minden születést és létet, itt  hagynám a varázslatot, a rejtélyt, a messzeségek, a kimeríthetetlenségek s az örökkévalóságok kábulatát: mert itt hagynám ezt a földet és ezeket a csillagokat, mert nem vinnék semmit magammal innen, mert belenéztem abba, ami jön, és nem kell innen semmi.</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://szilardborbely.github.io/post/shi-de-bei-fen/">
+              <h3 class="post-title">
+                诗的备份
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://szilardborbely.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
